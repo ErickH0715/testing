@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alimentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lista de Alimentos</h2>
+
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Bananas</li>
+                <li>Apples
+                    <ul>
+                        <li>Green Apples</li>
+                        <li>Red Apples</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Lettuce</li>
+                <li>Tomatoes</li>
+            </ul>
+        </li>
+        <li>Meat</li>
+        <li>Desert
+            <ul>
+                <li>Cake</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
